@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/submit', 'SubmissionController@store');
+Route::get('/', function () {
+    return view('welcome');
+});
